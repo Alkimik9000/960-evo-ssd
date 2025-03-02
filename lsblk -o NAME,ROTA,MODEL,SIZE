@@ -1,0 +1,21 @@
+mark@Alienware:~$ lsblk -o NAME,ROTA,MODEL,SIZE
+NAME        ROTA MODEL                                      SIZE
+loop0          0                                              4K
+loop1          0                                          104.2M
+loop2          0                                           55.4M
+loop3          0                                           87.6M
+loop4          0                                           91.7M
+loop5          0                                          164.8M
+loop6          0                                             20K
+loop7          0                                           44.4M
+sda            0 SSD 1TB                                  953.9G
+├─sda1         0                                            300G
+├─sda2         0                                          100.6G
+└─sda3         0                                          553.3G
+zram0          0                                           15.5G
+nvme1n1        0 Samsung SSD 970 EVO Plus 1TB             931.5G
+├─nvme1n1p1    0                                            512M
+└─nvme1n1p2    0                                            931G
+nvme0n1        0 Sabrent Rocket nano                      953.9G
+├─nvme0n1p1    0                                            100M
+└─nvme0n1p2    0                                          953.8G
