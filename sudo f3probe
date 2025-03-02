@@ -1,0 +1,22 @@
+mark@Alienware:~$ sudo f3probe --destructive --time-ops /dev/sda
+F3 probe 8.0
+Copyright (C) 2010 Digirati Internet LTDA.
+This is free software; see the source for copying conditions.
+
+WARNING: Probing normally takes from a few seconds to 15 minutes, but
+         it can take longer. Please be patient.
+
+Bad news: The device `/dev/sda' is damaged 
+
+Device geometry:
+                 *Usable* size: 0.00 Byte (0 blocks) 
+                Announced size: 953.87 GB (2000409264 blocks)
+                        Module: 1.00 TB (2^40 Bytes)
+        Approximate cache size: 0.00 Byte (0 blocks), need-reset=no
+           Physical block size: 512.00 Byte (2^9 Bytes)
+
+Probe time: 2'
+ Operation: total time / count = avg time
+      Read: 747.5ms / 4416 = 169us
+     Write: 1'59" / 169984 = 703us
+     Reset: 0us / 1 = 0us
